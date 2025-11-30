@@ -6,20 +6,85 @@ body {
 }
 
 header {
-    background-color: #ecc9c9;
+    background-color: black;
+    color: rgb(252, 226, 174);
     margin: 0;
+    padding: 0 20px;
     min-height: 20vh;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
 }
 
 header h1 {
     margin: 0;
-    padding: 20px;
-    color: #333;
+}
+
+img {
+    height: 200px;
+
 }
 
 main {
-    background-color: #b5c793;
+    background-color: #C79E5E;
     margin: 0;
     padding: 20px;
     min-height: 80vh;
+}
+
+label {
+    font-size: 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    color: rgb(48, 37, 0);
+}
+
+input {
+    background-color: #ecdcc3;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+    margin: 10px;
+    border: 3px solid rgb(214, 189, 107);
+    border-radius: 5px;
+}
+
+button {
+    background-color: rgb(252, 226, 174);
+    color: goldenrod;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    margin-bottom: 20px;
+    ;
+}
+
+button:hover {
+    background-color: rgb(214, 189, 107);
+    color: rgb(65, 55, 0);
+    box-shadow: 0px 0px 10px 3px rgb(248, 226, 100);
+}
+
+table {
+    width: 80%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+td {
+    border: 1px solid rgb(71, 67, 56);
+    padding: 8px;
+    color: rgb(48, 37, 0);
+}
+
+th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: center;
+    background-color: rgb(252, 226, 174);
+    color: goldenrod;
+    border: 1px solid rgb(71, 67, 56);
 }
