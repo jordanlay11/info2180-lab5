@@ -1,1 +1,25 @@
 /* Add your own styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    text-align: center;
+}
+
+header {
+    background-color: #ecc9c9;
+    margin: 0;
+    min-height: 20vh;
+}
+
+header h1 {
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+main {
+    background-color: #b5c793;
+    margin: 0;
+    padding: 20px;
+    min-height: 80vh;
+}

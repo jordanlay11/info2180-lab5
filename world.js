@@ -2,9 +2,9 @@ document.getElementById("lookup").onclick = function() {
     const country = document.getElementById("country").value;
     const url = "world.php?country=" + encodeURIComponent(country);
     fetch(url)
-        .then(response => response.json())
+        .then(response => response.text())
         .then(data => {
-            document.getElementById("result").innerHTML = JSON.stringify(data);
+            document.getElementById("result").innerHTML = data;
         })
         .catch(error => console.error('Error:', error));
 }
